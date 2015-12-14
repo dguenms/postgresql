@@ -5,3 +5,5 @@ begin
 rescue LoadError
   puts ">>>>> Emeril gem not loaded, omitting tasks" unless ENV['CI']
 end
+
+# some pointless comment
